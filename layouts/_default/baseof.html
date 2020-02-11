@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="ParkwayPirates,Parkway,Pirates,Fishing,Club,amatuer,family,frenchsforest," />
+    <meta name="description" content="Website of the 'Parkway Pirates' fishing club - Frenchs Forest, Sydney, NSW, Australia" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+    <script type="text/javascript" src="/navbar-burger.js"></script>
+    <title>{{ .Site.Title }}</title>
+</head>
+
+<body>
+    {{ partial "navbar.html" . }}
+    {{ block "content" . }}
+    <!-- Content loaded from each page goes in here -->
+    {{ end }}
+</body>
+
+</html>
