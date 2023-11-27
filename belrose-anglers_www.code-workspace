@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "path": "content",
+      "name": "Content"
+    },
+    {
+      "path": "assets",
+      "name": "Asset"
+    },
+    {
+      "path": "static",
+      "name": "Static Resources"
+    },
+    {
+      "path": "layouts",
+      "name": "Layouts"
+    },
+    {
+      "path": "archetypes",
+      "name": "Archetypes"
+    },
+    {
+      "path": ".",
+      "name": "Root"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "EditorConfig.EditorConfig",
+      "Trunk.io",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint"
+    ]
+  }
+}
