@@ -29,6 +29,10 @@ actions:
   disabled:
     - trunk-announce
   enabled:
+    - npm-check
+    - trunk-check-pre-commit
+    - trunk-check-pre-push-always
+    - yarn-check
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
     - trunk-upgrade-available
