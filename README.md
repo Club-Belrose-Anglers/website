@@ -1,6 +1,6 @@
 # 🎣 Club Belrose Anglers Website 🐟
 
-![Club Belrose Anglers Logo](https://scontent.fsyd9-1.fna.fbcdn.net/v/t39.30808-6/395076848_122102190116087577_4896574374975185268_n.jpg)
+![Club Belrose Anglers Logo](https://avatars.githubusercontent.com/u/57084692)
 
 ## Welcome to Club Belrose Anglers
 
@@ -53,11 +53,11 @@ We welcome contributions! Whether it's content, design, or code improvements, yo
 8. List our sponsors.
 9. Enhance social media integration.
 
-*Note: Suggestions for additional features are welcome.*
+_Note: Suggestions for additional features are welcome._
 
 ## FAQs
 
-*Coming soon. We'll include answers to common questions about our club and website.*
+_Coming soon. We'll include answers to common questions about our club and website._
 
 ## Community and Support
 
@@ -89,8 +89,8 @@ Stay connected with us through our social media channels:
 - Instagram (Coming Soon)
 - TikTok (Coming Soon)
 
-*Note: We're exploring additional social platforms to enhance our community engagement.*
+_Note: We're exploring additional social platforms to enhance our community engagement._
 
 ---
 
-*This README is subject to continuous improvement. Your suggestions and feedback are highly appreciated.*
+_This README is subject to continuous improvement. Your suggestions and feedback are highly appreciated._
