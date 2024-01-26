@@ -175,7 +175,7 @@ We recommend using Visual Studio Code (VS Code) as it is well-suited for our pro
 
 1. Download and install [VS Code](https://code.visualstudio.com/download).
 2. Open the cloned repository in VS Code.
-3. Install the recommended extensions for our project. You can find these in the extensions section of `belrose-anglers_www.code-workspace` found in the root of the project.
+3. Install the recommended extensions for our project. You can find these in the extensions section of `cba-website.code-workspace` found in the root of the project.
 
 #### Making Your First Contribution
 

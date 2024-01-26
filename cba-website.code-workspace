@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "path": "/home/mark/dev/projects/belrose-anglers_www",
+      "path": "/home/mark/dev/projects/cba-website",
       "name": "CBA Website"
     }
   ],
@@ -14,6 +14,13 @@
     ]
   },
   "settings": {
-    "cSpell.words": ["Belrose", "dbaeumer", "Styleguides", "Traceback"]
+    "cSpell.words": [
+      "ananke",
+      "Belrose",
+      "dbaeumer",
+      "gohugo",
+      "Styleguides",
+      "Traceback"
+    ]
   }
 }
