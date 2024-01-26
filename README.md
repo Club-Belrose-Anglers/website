@@ -6,11 +6,11 @@
 
 🌊 Located on Sydney's stunning Northern Beaches, we're more than just a fishing club - we're a community.
 
-🏆 Dive into monthly competitions with a changing fish of the month – from Salmon to Luderick, there's always a new challenge!
+🏆 Dive into monthly competitions with a changing fish of the month - from Salmon to Luderick, there's always a new challenge!
 
 🍻 Join us at [Club Belrose](www.clubbelrose.com.au), our vibrant home base! Boasting live music, delicious dining, and Saturday night meat tray raffles!
 
-✈️ Journey with us on unforgettable trips: be it racing jet-boats in Fiji, catching Marlin in Vanuatu, or swimming with crocs in Cairns... Our adventures are packed – like providing heartwarming aid to Fiji's villages or treating resort staff to a Mahi Mahi feast... And if the 'Flathead Challenge' calls... Forster to Lake Macquarie, Port Stephens to Greenwell Point await!
+✈️ Journey with us on unforgettable trips: be it racing jet-boats in Fiji, catching Marlin in Vanuatu, or swimming with Crocs in Cairns... Our adventures are packed - like providing heartwarming aid to Fiji's villages or treating resort staff to a Mahi Mahi feast... And if the 'Flathead Challenge' calls... Forster to Lake Macquarie, Port Stephens to Greenwell Point await!
 
 🎉 Every event is a celebration: Monthly BBQ's at the competition weigh-ins, presentation nights bursting with raffles, and yes, Santa might pop by at our Xmas Weigh-In!
 
