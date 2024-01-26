@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "/home/mark/dev/projects/belrose-anglers_www",
+      "name": "CBA Website"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "EditorConfig.EditorConfig",
+      "Trunk.io",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint"
+    ]
+  },
+  "settings": {
+    "cSpell.words": ["Belrose", "dbaeumer", "Styleguides", "Traceback"]
+  }
+}

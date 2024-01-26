@@ -29,6 +29,9 @@ All types of contributions are encouraged and valued. See the [Table of Contents
       - [Before Submitting an Enhancement](#before-submitting-an-enhancement)
       - [How Do I Submit a Good Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
     - [Your First Code Contribution](#your-first-code-contribution)
+      - [Setting Up Your Environment](#setting-up-your-environment)
+      - [Setting Up Your IDE](#setting-up-your-ide)
+      - [Making Your First Contribution](#making-your-first-contribution)
 
 ## Code of Conduct
 
@@ -81,7 +84,7 @@ Depending on how large the project is, you may want to outsource the questioning
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
 
 - Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions<!--  (Make sure that you have read the [documentation](). If you are looking for support, you might want to check [this section](#i-have-a-question)). -->
+- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/version
 - To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/Club-Belrose-Anglers/websiteissues?q=label%3Abug).
 - Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 - Collect information about the bug:
@@ -123,7 +126,6 @@ This section guides you through submitting an enhancement suggestion for CBA Web
 #### Before Submitting an Enhancement
 
 - Make sure that you are using the latest version.
-<!-- - Read the [documentation]() carefully and find out if the functionality is already covered, maybe by an individual configuration. -->
 - Perform a [search](https://github.com/Club-Belrose-Anglers/website/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 - Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
 
@@ -136,15 +138,12 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/Club-B
 - Use a **clear and descriptive title** for the issue to identify the suggestion.
 - Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
+- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
 - **Explain why this enhancement would be useful** to most CBA Website users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
 
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
-### Your First Code Contribution
-
 <!-- TODO
-include Setup of env, IDE and typical getting started instructions?
 
 ### Improving The Documentation
 
@@ -157,6 +156,37 @@ Updating, improving and correcting the documentation
 ## Join The Project Team
 
 ## Attribution
+
 -->
+
+### Your First Code Contribution
+
+#### Setting Up Your Environment
+
+1. Fork the repository on GitHub.
+2. Clone your fork to your local machine.
+3. Install the required dependencies.
+   1. Hugo: On Linux and macOS, you can install Hugo with: `brew install hugo`. On Windows, download a pre-built Hugo release from <https://github.com/gohugoio/hugo/releases>.
+   2. Trunk.io: Follow the instructions at [Trunk CLI](https://docs.trunk.io/check/cli) to install.
+
+#### Setting Up Your IDE
+
+We recommend using Visual Studio Code (VS Code) as it is well-suited for our project:
+
+1. Download and install [VS Code](https://code.visualstudio.com/download).
+2. Open the cloned repository in VS Code.
+3. Install the recommended extensions for our project. You can find these in the extensions section of `belrose-anglers_www.code-workspace` found in the root of the project.
+
+#### Making Your First Contribution
+
+1. Find an issue that you want to work on. We recommend starting with one labeled as "good first issue".
+2. Create a new branch for your changes. Name it something descriptive, such as `fix-bug-123`.
+3. Make your changes in this branch. Be sure to follow our coding standards and conventions.
+4. Test your changes. Make sure all tests pass, and add new tests if necessary.
+5. Commit your changes. Make your commit messages clear and concise.
+6. Push your changes to your fork.
+7. Open a pull request. In the pull request description, explain your changes and how they fix the issue.
+
+Thank you for your interest in contributing to our project!
 
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
