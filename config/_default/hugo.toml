@@ -1,0 +1,13 @@
+DefaultContentLanguage = "en"
+baseURL = "http://www.clubbelroseanglers.com.au/"
+description = "Official website of the 'Club Belrose Anglers', Sydney, Australia"
+languageCode = "en-au"
+sectionPagesMenu = ""
+title = "Club Belrose Anglers"
+# googleAnalytics = ""
+Paginate = 10
+canonifyURLs = true
+enableRobotsTXT = true
+theme = ["ananke"]
+themesDir = "themes"
+enableEmoji = true

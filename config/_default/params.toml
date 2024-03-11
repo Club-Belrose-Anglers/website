@@ -1,0 +1,58 @@
+author = "Mark Sanders"
+background_color_class = "bg-navy"
+body_classes = "bg-near-white avenir"
+date_format = ":date_short"
+favicon = "images/favicon.ico"
+mainSections = ["gallery", "events", "leaderboard", "blog"]
+recent_posts_number = 12
+site_logo = "images/cba-logo-20.png"
+text_color = "moon-gray"
+
+[[ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/club.belrose.anglers"
+
+[[ananke_socials]]
+name = "github"
+url = "https://github.com/Club-Belrose-Anglers"
+
+[[ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/BelroseAnglers"
+
+
+#
+#
+#
+#
+# ------------------------------------------------------------
+# TODO
+#
+# color: "#4f46e5"
+# copyright: "Copyright &copy; 2022 Acme Corporation. All Rights Reserved."
+# footer:
+#   - title: About
+#     content: >
+#         Acme Corporation is the world's leading
+#         manufacturer of digital shapes. From squares and
+#         circles to triangles and hexagons, we have it all.
+#         Browse through our collection of various forms with
+#         different thicknesses and line styles. We shape
+#         the world. You live in it.
+#   - title: Recent Blog Posts
+#     recents: blog
+#     recentCount: 7
+#   - title: Contact Us
+#     contact: true
+# style: blue
+# logo: /image/logo.png
+# logo_small: /image/logo.png
+# about_us: >
+#   Acme Corporation is the world's leading manufacturer
+#   of digital shapes. From squares and circles to
+#   triangles and hexagons, we have it all. Browse through
+#   our collection of various forms with different
+#   thicknesses and line styles. We shape the world. You
+#   live in it.
+# recent_posts:
+#   enable: true

@@ -1,0 +1,13 @@
+duplicateResourceFiles = false
+noJSConfigInAssets = false
+useResourceCacheWhen = 'fallback'
+
+[buildStats]
+disableClasses = false
+disableIDs = false
+disableTags = false
+enable = false
+
+[[cacheBusters]]
+source = '(postcss|tailwind)\.config\.js'
+target = '(css|styles|scss|sass)'
