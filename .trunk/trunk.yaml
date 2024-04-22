@@ -21,8 +21,8 @@ runtimes:
 lint:
   enabled:
     - osv-scanner@1.7.2
-    - oxipng@9.0.0
-    - checkov@3.2.71
+    - oxipng@9.1.0
+    - checkov@3.2.73
     - trivy@0.50.1
     - yamllint@1.35.1
     - git-diff-check
