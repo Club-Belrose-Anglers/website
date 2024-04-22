@@ -1,21 +1,40 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="ParkwayPirates,Parkway,Pirates,Fishing,Club,amatuer,family,frenchsforest," />
-    <meta name="description" content="Website of the 'Parkway Pirates' fishing club - Frenchs Forest, Sydney, NSW, Australia" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
-    <script type="text/javascript" src="/navbar-burger.js"></script>
-    <title>{{ .Site.Title }}</title>
-</head>
-
-<body>
-    {{ partial "navbar.html" . }}
-    {{ block "content" . }}
-    <!-- Content loaded from each page goes in here -->
-    {{ end }}
-</body>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Club Belrose Anglers</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+        background-color: #f0f0f0;
+      }
+      h1 {
+        color: #333;
+      }
+      p {
+        color: #666;
+      }
+      .logo {
+        width: 200px;
+        height: auto;
+        margin: 20px auto;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="images/CBA_Logo-round-with-text.pdf"
+      alt="Club Belrose Anglers Logo"
+      class="logo"
+    />
+    <h1>Club Belrose Anglers</h1>
+    <p>
+      Official website of the Club Belrose Anglers. Belrose, Sydney, Australia
+    </p>
+    <p><strong>Website Coming Soon!</strong></p>
+  </body>
 </html>
