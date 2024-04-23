@@ -1,0 +1,136 @@
+# TODO: Header & Footer
+#
+# -----------------------
+#
+#
+[[main]]
+identifier = "gallery"
+name = "Gallery"
+url = "/gallery"
+weight = 10
+
+# -----------------------
+[[main]]
+identifier = "competition"
+name = "Competition"
+url = "/competition"
+weight = 20
+
+[[main]]
+identifier = "leaderboard"
+name = "Leaderboard"
+parent = "competition"
+url = "/competition/leaderboard"
+weight = 10
+
+# -----------------------
+[[main]]
+identifier = "events"
+name = "Events"
+url = "/events"
+weight = 30
+
+[[main]]
+identifier = "raffles"
+name = "Saturday Raffles"
+parent = "events"
+url = "/events/raffles"
+weight = 10
+
+[[main]]
+identifier = "fhc"
+name = "Flathead Challenge"
+parent = "events"
+url = "/events/flathead-challenge"
+weight = 20
+
+[[main]]
+identifier = "presentation"
+name = "Presentation Night"
+parent = "events"
+url = "/events/presentation"
+weight = 30
+
+[[main]]
+identifier = "xmas"
+name = "Xmas Weigh-in"
+parent = "events"
+url = "/events/xmas-weigh-in"
+weight = 40
+
+[[main]]
+identifier = "agm"
+name = "Annual General Meeting"
+parent = "events"
+url = "/events/agm"
+weight = 50
+
+# -----------------------
+[[main]]
+identifier = "club"
+name = "Club"
+url = "/club"
+weight = 40
+
+[[main]]
+identifier = "constitution"
+name = "Constitution"
+parent = "club"
+url = "/club/constitution"
+weight = 10
+
+[[main]]
+identifier = "records"
+name = "Records"
+parent = "club"
+url = "/club/records"
+weight = 20
+
+[[main]]
+identifier = "rules"
+name = "Rules"
+parent = "club"
+url = "/club/rules"
+weight = 30
+
+[[main]]
+identifier = "sponsors"
+name = "Sponsors"
+parent = "club"
+url = "/club/sponsors"
+weight = 40
+
+[[main]]
+identifier = "committee"
+name = "Committee"
+parent = "club"
+url = "/club/committee"
+weight = 50
+
+[[main]]
+identifier = "about"
+name = "About"
+parent = "club"
+url = "/club/about"
+weight = 60
+
+[[main]]
+identifier = "join"
+name = "Join Us"
+parent = "club"
+url = "/club/join-us"
+weight = 70
+
+[[main]]
+identifier = "merchandise"
+name = "Merchandise"
+parent = "club"
+url = "/club/shop"
+weight = 80
+
+[[main]]
+identifier = "contact"
+name = "Contact"
+parent = "club"
+url = "/club/contact-us"
+weight = 90

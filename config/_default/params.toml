@@ -1,0 +1,26 @@
+author = "Mark Sanders"
+background_color_class = "bg-navy"
+body_classes = "bg-near-white avenir"
+date_format = ":date_short"
+favicon = "images/favicon.ico"
+mainSections = ["gallery", "events", "leaderboard", "blog"]
+recent_posts_number = 12
+site_logo = "images/cba-logo-20.png"
+text_color = "moon-gray"
+
+[[ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/club.belrose.anglers"
+
+
+[[ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/BelroseAnglers"
+
+[[ananke_socials]]
+name = "youtube"
+url = "https://www.youtube.com/@ClubBelroseAnglers"
+
+[[ananke_socials]]
+name = "github"
+url = "https://github.com/Club-Belrose-Anglers"

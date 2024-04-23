@@ -1,0 +1,99 @@
+############################### Taxonomies ###############################
+# Taxonomies provide a means of grouping pages together in ways that make
+# sense for a particular site, along with a way of defining a common
+# structure & comtent for those related pages.
+#
+#  See the guide 'https://gohugo.io/content-management/taxonomies/' for
+# more info. I'll reproduce a part of it here for convenience.
+#
+# They have 3 components:
+# - Taxonomy: a categorization that can be used to classify content
+# - Term: a key within the taxonomy
+# - Value: a piece of content assigned to a term
+#
+# e.g. A movie site might have Actors, Directors & Genre:
+#
+# Actor                   <- Taxonomy
+#    Bruce Willis         <- Term
+#        The Sixth Sense  <- Value
+#        Unbreakable      <- Value
+#        Moonrise Kingdom <- Value
+#    Samuel L. Jackson    <- Term
+#        Unbreakable      <- Value
+#        The Avengers     <- Value
+#        xXx              <- Value
+#
+# The relationships to be viewed from different perspectives but
+# the values remain the same.
+#
+# Unbreakable                 <- Value
+#     Actors                  <- Taxonomy
+#         Bruce Willis        <- Term
+#         Samuel L. Jackson   <- Term
+#     Director                <- Taxonomy
+#         M. Night Shyamalan  <- Term
+#     ...
+# Moonrise Kingdom            <- Value
+#     Actors                  <- Taxonomy
+#         Bruce Willis        <- Term
+#         Bill Murray         <- Term
+#     Director                <- Taxonomy
+#         Wes Anderson        <- Term
+#     ...
+#
+# category = "categories"                # General Topics - broad groupings. E.g.  ["Educational", "Saltwater", "Offshore"], or ["Competition"]
+# tag = "tags"                           # Specific details of a post.  E.g. ["Away Trip", "Fiji", "Village Visit", "Jet Boat", "Kava", "Sunshine"]
+# club_record = "club_records"           # Species, Current holder, size, prev holders, dates etc
+# committee_board = "committee_board"    # Committee member page - name, active years, position held, bio etc.
+# committee_member = "committee_members" # Committee member page - name, active years, position held, bio etc.
+# competition = "Competitions"           # A competition page detailing year, FOM, fish caught, prizes won, etc
+# event = "events"                       # AGM, Kidz classic, Flat-head challenge, Monthly comp, etc
+# sponsor = "sponsors"                   # Current & past sponsors - name, logo, website, sponsor tier, special conditions etc
+#
+#
+##### Categories vs Tags
+## For example, imagine you run a food blog. You create recipes, write reviews for appliances, and share photography tips.
+## These main topics (recipes, reviews, photography) are your blog categories. But within each topic fall a handful of sub-topics like
+## bread and pastry recipes, small appliance and tool reviews, and low lighting and stop-motion photography tutorials
+#
+#
+#
+#
+#
+##
+#
+#
+#
+#
+#
+#
+#
+#
+##
+#
+#
+#
+#
+#
+#
+#
+#
+##
+#
+#
+#
+#
+#
+#
+#
+#
+##
+#
+#
+#
+#
+#
+#
+#
+#
+##

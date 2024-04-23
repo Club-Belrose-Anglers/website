@@ -1,7 +1,66 @@
 {
   "folders": [
     {
-      "path": "."
-    }
-  ]
+      "path": "/home/mark/dev/projects/cba-website/config",
+      "name": "Config",
+    },
+    {
+      "path": "/home/mark/dev/projects/cba-website/data",
+      "name": "Data",
+    },
+    {
+      "path": "/home/mark/dev/projects/cba-website/content",
+      "name": "Content",
+    },
+    {
+      "path": "/home/mark/dev/projects/cba-website/archetypes",
+      "name": "Archetypes",
+    },
+    {
+      "path": "/home/mark/dev/projects/cba-website/static",
+      "name": "Static Resources",
+    },
+    {
+      "path": "/home/mark/dev/projects/cba-website/layouts",
+      "name": "Layouts",
+    },
+    {
+      "path": "/home/mark/dev/projects/cba-website/themes",
+      "name": "Themes",
+    },
+    {
+      "path": "/home/mark/dev/projects/cba-website",
+      "name": "<project_root>",
+    },
+  ],
+  "extensions": {
+    "recommendations": ["EditorConfig.EditorConfig", "Trunk.io", "esbenp.prettier-vscode"],
+  },
+  "settings": {
+    "cSpell.words": [
+      "ananke",
+      "Belrose",
+      "changefreq",
+      "Crocs",
+      "dbaeumer",
+      "Dougall",
+      "endraw",
+      "Freeth",
+      "gohugo",
+      "Greenwell",
+      "heartwarming",
+      "Leaderboard",
+      "Luderick",
+      "Mahi",
+      "McLafferty",
+      "nlist",
+      "NSWFCA",
+      "Rebecca",
+      "Styleguides",
+      "Traceback",
+    ],
+    "files.associations": {
+      "*.md": "hugo",
+    },
+  },
 }

@@ -1,0 +1,89 @@
+#  TODO - Cleanup
+cleanDestinationDir = true
+buildDrafts = true
+minifyOutput = false
+DebugMenu = true
+#
+#
+# TODO - Timezones
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#
+#
+# ---------------------------
+# TODO - Security policy
+# https://gohugo.io/about/security-model/#security-policy
+#
+#
+#
+# ---------------------------
+# TODO - sitemap
+#  https://gohugo.io/templates/sitemap-template/#configuration
+#
+#
+#
+# ---------------------------
+# TODO - Image processing
+#
+# https://gohugo.io/content-management/image-processing/#imaging-configuration
+# https://gohugo.io/content-management/image-processing/#image-processing-options
+# https://gohugo.io/content-management/image-processing/#imaging-configuration
+# https://gohugo.io/content-management/image-processing/#processing-options
+# https://gohugo.io/content-management/image-processing/#exif-data
+# https://gohugo.io/content-management/image-processing/#smart-cropping-of-images
+#
+# [imaging]
+#   bgColor = '#ffffff'
+#   hint = 'photo'
+#   quality = 75
+#   resampleFilter = 'box'
+#   [imaging]
+#   [imaging.exif]
+#     disableDate = false
+#     disableLatLong = false
+#     excludeFields = ''
+#     includeFields = ''
+#
+#
+#
+# ---------------------------
+# TODO - Minify
+#
+# https://github.com/tdewolff/minify
+# https://gohugo.io/getting-started/configuration/#configure-minify
+#
+# import (
+# 	"github.com/tdewolff/minify/v2"
+# 	"github.com/tdewolff/minify/v2/css"
+# 	"github.com/tdewolff/minify/v2/html"
+# 	"github.com/tdewolff/minify/v2/js"
+# 	"github.com/tdewolff/minify/v2/json"
+# 	"github.com/tdewolff/minify/v2/svg"
+# 	"github.com/tdewolff/minify/v2/xml"
+# )
+#
+# [minify]
+# disableCSS = false
+# disableHTML = false
+# disableJS = false
+# disableJSON = false
+# disableSVG = false
+# disableXML = false
+# minifyOutput = false
+#
+#
+#
+#
+#
+# ---------------------------
+#
+# TODO - Comp Calendar
+# calendar	index	false	true	text/calendar	false		false	webcal://	alternate
+# [outputFormats]
+#   [outputFormats.MyEnrichedFormat]
+#     baseName = 'myindex'
+#     isPlainText = true
+#     mediaType = 'text/enriched'
+#     protocol = 'bep://'
+# ---------------------------
+# TODO - Understand AMP
+# amp	index	true	false	text/html	false	amp	true		amphtml
