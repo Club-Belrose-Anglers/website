@@ -2,7 +2,7 @@
 # To learn more about the format of this file, see https://docs.trunk.io/reference/trunk-yaml
 version: 0.1
 cli:
-  version: 1.21.0
+  version: 1.22.0
 # Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
 plugins:
   sources:
@@ -10,20 +10,20 @@ plugins:
       ref: v1.0.4
       uri: https://github.com/trunk-io/configs
     - id: trunk
-      ref: v1.4.5
+      ref: v1.5.0
       uri: https://github.com/trunk-io/plugins
 # Many linters and tools depend on runtimes - configure them here. (https://docs.trunk.io/runtimes)
 runtimes:
   enabled:
-    - node@18.12.1
+    - node@20.12.2
     - python@3.10.8
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   enabled:
     - osv-scanner@1.7.2
-    - oxipng@9.1.0
-    - checkov@3.2.73
-    - trivy@0.50.1
+    - oxipng@9.1.1
+    - checkov@3.2.74
+    - trivy@0.50.4
     - yamllint@1.35.1
     - git-diff-check
     - markdownlint@0.39.0
@@ -31,13 +31,13 @@ lint:
     - taplo@0.8.1
     - trufflehog@3.71.0
 actions:
-  disabled:
-    - trunk-announce
+  disabled: []
   enabled:
     - npm-check
+    - trunk-announce
     - trunk-check-pre-commit
     - trunk-check-pre-push-always
-    - yarn-check
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
     - trunk-upgrade-available
+    - yarn-check

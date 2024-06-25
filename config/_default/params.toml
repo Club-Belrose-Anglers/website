@@ -12,6 +12,9 @@ text_color = "moon-gray"
 name = "facebook"
 url = "https://www.facebook.com/club.belrose.anglers"
 
+[[ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/clubbelroseanglers/"
 
 [[ananke_socials]]
 name = "twitter"
